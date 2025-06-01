@@ -11,7 +11,7 @@ public class Program {
 		System.out.println("verificador de anos bisextos");
 		System.out.println("Digite um ano ai: ");
 		ano = sc.nextInt();
-		if (ano % 4 ==0 & ano %100 != 0 || ano % 400 ==0) {
+		if (ano % 4 ==0 && ano %100 != 0 || ano % 400 ==0) {
 			System.out.println("Ano é bisexto");
 		}else {
 			System.out.println("Ano não é bisexto");
